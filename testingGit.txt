@@ -1,2 +1,6 @@
 Oleksandr Zhytenko
+<<<<<<< HEAD
 master + 
+=======
+testing
+>>>>>>> testing
