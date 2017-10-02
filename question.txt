@@ -50,6 +50,7 @@ input
 обернена
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 chahnge sth
 111
 =======
@@ -57,3 +58,8 @@ on branch testing
 >>>>>>> testing
 
 Olexandr
+=======
+on branch testing
+
+Zhytenko
+>>>>>>> testing
