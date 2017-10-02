@@ -30,7 +30,7 @@ def interview(questions):
     print('Hello, you have an unique opportunity' + \
            ' to take the this test about Python !!!')
     ready = input('When you want to start, press 1')
-    with open('results.txt', 'w', encoding='utf-8') as results:
+    with open('results_sum.txt', 'w', encoding='utf-8') as results:
         user_name = input('Please write your name  ')
         results.write('Result ' + user_name + ' skills from Python')
     right_answers = 0
@@ -49,7 +49,7 @@ def interview(questions):
                 right_answers += 1
                 if i != quantity_questions:
                     print('Ok, Next question' + '\n')
-                    with open('results.txt', 'a', encoding='utf-8') as results:
+                    with open('results_sum.txt', 'a', encoding='utf-8') as results:
                         results.write('\n')
                         results.write('Question %d:' % i)
                         results.write('\n')
@@ -62,7 +62,7 @@ def interview(questions):
                   and users_answer == '1':
                 if i != quantity_questions:
                     print('Ok, Next question' + '\n')
-                    with open('results.txt', 'a', encoding='utf-8') as results:
+                    with open('results_sum.txt', 'a', encoding='utf-8') as results:
                         results.write('\n')
                         results.write('Question %d:' % i)
                         results.write('\n')
@@ -74,7 +74,7 @@ def interview(questions):
     else:
         print('The end')
         print('Thank you for your time')
-    with open('results.txt', 'a', encoding='utf-8') as results:
+    with open('results_sum.txt', 'a', encoding='utf-8') as results:
         results.write('\n')
         results.write('Results ' + str(user_name) + ' is:')
         results.write('right_answers = ' + str(right_answers) + ' from ' +\
@@ -86,5 +86,4 @@ def interview(questions):
              ' you have the potential!'
     return review
 
-#print(interview(questions))
-#######
+print(interview(questions))
