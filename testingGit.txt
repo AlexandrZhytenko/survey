@@ -1,3 +1,12 @@
 Oleksandr Zhytenko
+<<<<<<< HEAD
 testing
 another doing
+=======
+<<<<<<< HEAD
+master + 
+=======
+testing
+>>>>>>> testing
+master + 
+>>>>>>> master
