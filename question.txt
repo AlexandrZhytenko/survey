@@ -49,5 +49,9 @@ input
 поліморфна
 обернена
 
+<<<<<<< HEAD
 chahnge sth
 111
+=======
+on branch testing
+>>>>>>> testing
